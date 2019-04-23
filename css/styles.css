@@ -1,8 +1,54 @@
+/* main line tags*/
+
 body{
     background-image: url(../images/pinkBack.jpg);
     font-family: Tahoma, "Geneva", sans-serif;
 }
 
+nav {
+    background-color: black;
+    margin-top: none;
+    padding-top: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 10px;
+    
+}
+
+a:link {
+    color: snow;
+}
+
+a:visited, a:active {
+    color: snow
+}
+
+a:hover {
+    color: blueviolet
+}
+
+p{
+    text-align: center;
+    
+}
+
+/* class line tags*/
+.response {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* id line tags*/  
 #container {
     background-color:rgb(236, 236, 188);
     width: 70%;
@@ -23,9 +69,9 @@ body{
     text-align: center;
 }
 
-p{
-    text-align: center;
-    
+#banDiv {
+    background-color: black;
+    border-bottom: none;
 }
 
 #banner {
@@ -50,7 +96,7 @@ p{
 
 
 #mainPic {
-    
+     
     width: 350px;
     height: 500px;
     display: block;
@@ -69,38 +115,3 @@ p{
     padding-top: 15px;
 }
 
-nav {
-    background-color: black;
-    margin-top: none;
-    padding-top: none;
-}
-
-nav ul {
-    list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    
-}
-
-nav li {
-    display: inline-block;
-    padding-left: 10px;
-    
-}
-
-a:link {
-    color: snow;
-}
-
-a:visited, a:active {
-    color: snow
-}
-
-a:hover {
-    color: blueviolet
-}
-
-#banDiv {
-    background-color: black;
-    border-bottom: none;
-}
