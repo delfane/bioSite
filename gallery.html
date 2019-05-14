@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tammy Bio">
+    <meta name="keywords" content="tammy renee baker, biography">
+    <meta name="author" content="Tiffany Baker">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Bio Gallery</title>
+</head>
+<body>
+    <div id="container">
+        <div id="banner">
+            <img id="bannerImg" class="response" src="images/pinkBloom.jpg" alt="bloom">        
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Tammy</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="row"> 
+                <div class="column">
+                  <img id="imgstyle" src="images/tammy.jpg">
+                  <img id="imgstyle" src="images/tammy2.jpg">
+                </div>
+                <div>
+                  <img id="imgstyle" src="images/tammy3.jpg">
+                  <img id="imgstyle" src="images/tammy6.jpg">
+                  <img id="imgstyle" src="images/tammy9.jpg">
+                </div>
+
+                <div class="column">
+                  <img id="imgstyle"src="images/tammy4.jpg">
+                  <img id="imgstyle" src="images/tammy5.jpg">
+                  
+                  
+                </div> 
+
+                <div class="column">
+                  <img id="imgstyle" src="images/tammy7.jpg">
+                  <img id="imgstyle" src="images/tammy8.jpg">
+                  
+                  
+                </div>
+                
+              </div>
+            
+       
+
+    <div id="foot">
+        <img id="logo" src="images/eitherworldLogo.png" alt="logo">
+    </div>
+    </div>
+
+<script>
+   
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000);    
+    }
+
+</script>
+</body>
+</html>
