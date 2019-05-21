@@ -60,6 +60,7 @@ p{
     border: 3px, solid black;
     outline-style: solid;
     outline-color: black;
+
 }
 
 #foot{
@@ -151,6 +152,10 @@ p{
     padding-top: 15px;
   }
 
+.words {
+    width: 500px;
+    height: 300px;
+}
   
  
   
